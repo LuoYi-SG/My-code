@@ -14,4 +14,5 @@ int main(void) {
     increase [1] = after [2] + increase [2] - before [2];
     increase [0] = after [1] + increase [1] - before [1];
     fout << increase [0] << "\n" << increase [1] << "\n" << increase [2] << "\n";
+    return 0;          
 }
