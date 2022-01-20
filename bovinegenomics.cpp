@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+int main(void) {
     int N, M;
     cin >> N >> M;
     string spot [N], plain [N];
