@@ -1,3 +1,4 @@
+//This file should not be plagarised without the author's permission
 #include <bits/stdc++.h>
 
 using namespace std;
