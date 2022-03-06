@@ -12,7 +12,7 @@ int main ()
     for (int i = 0; i < 26; i ++) letters [i] = 'a' + i;
     for (int i = 26; i < 52; i ++) letters [i] = 'A' + i - 26;
     char special [15] = {'`', '~', '!', '@', '#', '$', '%', '^', '&', '*' , '|', '?', '/', ',', '.'};
-    cout << "Best password generatorr\n";
+    cout << "Best password generator\n";
     while (true)
     {
         string output = "";
