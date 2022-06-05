@@ -32,6 +32,12 @@ while True:
     b = input('Column(Player x):')
     a = int(a)
     b = int(b)
+    if a > 2 or a < 0 or b > 2 or b < 0:
+        print("please enter a number from 0 to 2")
+        continue
+    elif info[a][b] == 'x' or info[a][b] == 'o':
+        print("already occupied!")
+        continue
     info[a][b] = 'x'
     show()
     flag = judge()
@@ -45,6 +51,12 @@ while True:
     b = input('Column(Player o):')
     a = int(a)
     b = int(b)
+    if a > 2 or a < 0 or b > 2 or b < 0:
+        print("please enter a number from 0 to 2")
+        continue
+    elif info[a][b] == 'x' or info[a][b] == 'o':
+        print("already occupied!")
+        continue
     info[a][b] = 'o'
     show()
     flag = judge()
