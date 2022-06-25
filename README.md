@@ -1,2 +1,2 @@
-All my USACO Bronze solutions XD (I only upload those which are all correct), and some other stuff  
+All my USACO Bronze solutions(C++) and Python mini projects  
 All files should not be plagarised without the author's permission
